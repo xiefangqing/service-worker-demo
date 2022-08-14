@@ -43,7 +43,7 @@ app.get('/', function (req, res) {
 
 // 电影列表数据接口
 app.get('/api/movies', function (req, res) {
-    shuffle(movies.subjects);
+    shuffle(movies);
     res.json(movies);
 });
 

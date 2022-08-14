@@ -7,10 +7,10 @@ define(function (require) {
     'use strict';
 
     return function (data) {
-        let html = data.subjects.map(function (subject) {
+        let html = data.map(function (subject) {
             return `
             <li>
-                <img src="${subject.images.medium}"/>
+                <img src="${subject.url}"/>
                 <p>${subject.title}</p>
             </li>
             `;

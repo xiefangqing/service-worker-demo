@@ -9,3 +9,8 @@
 1. ` npm install `
 2. ` npm run start`
 3. 访问 http://localhost:8080
+
+## Tips
+原地址：https://github.com/lavas-project/pwa-lesson-demo/tree/master/phase-1/lesson-4-service-worker-in-practice
+
+视频：https://www.bilibili.com/video/BV1Bt411U7xj?spm_id_from=333.999.0.0&vd_source=804bf02fb3294befe05a27b9bcc99c97
